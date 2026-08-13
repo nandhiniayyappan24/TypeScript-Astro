@@ -1,0 +1,9 @@
+tool: monocart-coverage-reports
+language: typescript
+customer_version: "5.6"
+branch: ts5.6
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+command: "npx vitest run --coverage"
