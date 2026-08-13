@@ -1,0 +1,9 @@
+{
+  "name": "typescript-astro-tools",
+  "private": true,
+  "type": "module",
+  "description": "Tool integration marker package \u2014 references src + tests + all tool folders",
+  "scripts": {
+    "integrate": "node ../runToolIntegration.mjs"
+  }
+}
