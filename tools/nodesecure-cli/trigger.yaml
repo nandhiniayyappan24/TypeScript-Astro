@@ -1,0 +1,9 @@
+tool: @nodesecure/cli
+language: typescript
+customer_version: "5.7"
+branch: ts5.7
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+

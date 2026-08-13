@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { describeVersion } from '../services/versionSignature';
+import { calculateTotal } from '../services/orderService';
+
+const version = describeVersion();
+const sampleTotal = calculateTotal(2, 100, 10);
+---
+<Layout title="TypeScript Astro Monolithic">
+  <h1>Astro + TypeScript Content Site</h1>
+  <p><strong>Branch:</strong> ts5.7</p>
+  <p><strong>TypeScript:</strong> 5.7.3</p>
+  <p>{version}</p>
+  <p>Sample order total: {sampleTotal}</p>
+  <p><a href="/health">Health check (JSON)</a></p>
+</Layout>
