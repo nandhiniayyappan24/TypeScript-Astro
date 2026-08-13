@@ -1,0 +1,25 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "vitest/globals"
+    ],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "tools/TypeScriptAstro.Tools/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

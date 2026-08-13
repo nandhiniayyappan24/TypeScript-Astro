@@ -1,0 +1,9 @@
+tool: debtmap
+language: typescript
+customer_version: "5.8"
+branch: ts5.8
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+

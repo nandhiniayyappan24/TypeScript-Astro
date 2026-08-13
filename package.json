@@ -1,0 +1,21 @@
+{
+  "name": "typescript-astro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build && node tools/runToolIntegration.mjs",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "typecheck": "astro check && tsc --noEmit",
+    "tools:integrate": "node tools/runToolIntegration.mjs"
+  },
+  "dependencies": {
+    "astro": "4.16.18"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "vitest": "2.1.5",
+    "@astrojs/check": "0.9.4"
+  }
+}
