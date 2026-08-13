@@ -1,0 +1,9 @@
+tool: covgate
+language: typescript
+customer_version: "5.0"
+branch: ts5.0
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+
