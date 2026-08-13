@@ -1,0 +1,9 @@
+tool: red-dragon
+language: typescript
+customer_version: "5.4"
+branch: ts5.4
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+
