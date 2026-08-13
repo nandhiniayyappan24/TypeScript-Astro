@@ -1,0 +1,9 @@
+tool: red-dragon + oxc-coverage-instrument
+language: typescript
+customer_version: "5.3"
+branch: ts5.3
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+
