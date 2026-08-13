@@ -1,0 +1,9 @@
+tool: license-checker-rseidelsohn
+language: typescript
+customer_version: "4.9"
+branch: ts4.9
+project: ../../package.json
+app: ../../src
+tests: ../../tests
+tools_project: ../TypeScriptAstro.Tools/package.json
+
